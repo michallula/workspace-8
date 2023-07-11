@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: workspace-8-test-3
+  description: Bucket test-3 in workspace-8
+spec:
+  type: gcp-bucket
+  owner: guests
+  system: workspace-8
